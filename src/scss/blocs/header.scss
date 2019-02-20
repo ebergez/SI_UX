@@ -1,0 +1,30 @@
+.header {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+
+.header__logo {
+  border: 1px solid;
+  height: 60px;
+  width: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header__navbar {
+  width: 30vw;
+}
+
+.header__navbar__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  
+}
+}

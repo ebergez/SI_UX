@@ -1,0 +1,62 @@
+
+.hero__video {
+  
+  
+ 
+  
+  
+  
+  
+  .hero__video__ghost {
+    
+    filter: brightness(50%) blur(1px) ;
+    
+    
+    
+    
+    
+  }
+
+  
+
+  .hero__title {
+    position: absolute;
+    width: 91vw;
+   
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    & img {
+      width: 80%;
+      
+    }
+    
+  }
+  
+  }
+  
+  .hero__scrollDown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    
+    
+  .hero__scrollDown__arrows {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  
+  .hero__scrollDown__arrow {
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  }

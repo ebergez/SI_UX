@@ -1,21 +1,22 @@
-body .header {
+.header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
 }
-body .header .header__logo {
+.header .header__logo {
   border: 1px solid;
   height: 60px;
   width: 60px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-body .header .header__navbar {
+.header .header__navbar {
   width: 30vw;
 }
-body .header .header__navbar__list {
+.header .header__navbar__list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,43 +24,54 @@ body .header .header__navbar__list {
   margin: 0;
   padding: 0;
 }
+
+.hero__video .hero__video__ghost {
+  filter: brightness(50%) blur(1px);
+}
+.hero__video .hero__title {
+  position: absolute;
+  width: 91vw;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__video .hero__title img {
+  width: 80%;
+}
+
+.hero__scrollDown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.hero__scrollDown .hero__scrollDown__arrows {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+}
+.hero__scrollDown .hero__scrollDown__arrow {
+  margin: 10px;
+  width: 15px;
+  height: 15px;
+}
+
 body main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-body .hero__video .test {
-  border: 1px solid black;
-  position: absolute;
-  width: 10vw;
-  height: 10vh;
-}
-body .hero__video .hero__video__ghost {
-  opacity: 0.6;
-  background-color: black;
-}
-body .hero__scrollDown {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50px;
-}
-body .hero__scrollDown .hero__scrollDown__arrows {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 100%;
-}
-body .hero__scrollDown .hero__scrollDown__arrow {
-  margin: 10px;
-  width: 15px;
-  height: 15px;
-}
 body .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+}
+body .products__image {
+  height: 755px;
 }
 body .products__img--first {
   grid-column: 1;
@@ -82,4 +94,7 @@ body button {
   width: 150px;
   height: 30px;
   border: 1px solid black;
+}
+body .compteARebours__number {
+  color: yellow;
 }

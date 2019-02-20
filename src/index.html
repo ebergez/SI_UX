@@ -10,6 +10,7 @@
   
 </head>
 <body>
+    
   <header class="header">
     <div class="header__logo">
 
@@ -26,10 +27,27 @@
   </header>
   <main>
     <div class="hero__container">
+          
     <div class="hero__video">
-      <div class="hero__video__ghost">
-      <iframe width="1300px" height="630px" src="https://www.youtube.com/embed/GSiY3rfJOX8?rel=0&amp;autoplay=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="hero__video__ghost">
+        <video autoplay=1 width="1300px" height="630px">
+
+            
         
+            <source src="../src/video/video-murakami.mp4"
+                    type="video/mp4">  
+        
+           
+        </video>
+       <div class="hero__title">
+         <img src="../src/img/group_3.png" alt="colab-logo">
+         <p id="compteARebours">
+           <p><span id="d_restants" class="compteARebours__number"></span>JOURS</p>
+           <p><span id="H_restantes" class="compteARebours__number"></span>HEURES</p>
+           <p><span id="min_restantes" class="compteARebours__number"></span>MINUTES</p>
+           <p><span id="s_restantes" class="compteARebours__number"></span>SECONDES</p>
+        </p>
+       </div>
     </div>
   </div>
   
