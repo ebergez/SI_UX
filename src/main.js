@@ -35,3 +35,15 @@ document.getElementById("s_restantes").innerHTML = sec;
 
 }
 setInterval(CompteARebours, 1000); // la fonction s'actualise toutes les secondes
+
+
+
+// reglage du volume 
+/*
+var video = document.getElementById("myVideo");
+
+function setNoVolume() { 
+  video.volume = 0;
+}
+
+*/
